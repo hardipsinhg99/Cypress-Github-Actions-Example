@@ -62,7 +62,7 @@ export class UserFormPage {
     cy.get(this.form_last_name_label)
       .should("exist")
       .and("have.attr", "for", "lastname")
-      .and("have.text", "Last Name");
+      .and("have.text", "Last Nam");
     cy.log("Last Name Label Veified!");
   }
   check_Last_Name_Field(lastNameValue) {
