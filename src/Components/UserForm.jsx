@@ -123,7 +123,7 @@ const UserForm = () => {
                 data-test-id="first-Name-Label-Test"
                 id="first-name-label"
               >
-                First Name
+                First
               </label>
               <Field
                 name="firstName"
